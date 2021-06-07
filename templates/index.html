@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	  <link rel="stylesheet" href="../static/style.css">
+	<title>Car Life Predictor</title>
+</head>
+<body>
+	<header>
+    <div class="container">
+		<div id="brandname">
+			<h1> Car Life Predictor #know_your_car!</h1>
+		</div></div>
+   <span>
+   <h2>To predict the life time of your car, enter the details asked below:</h2></span>
+    </header>
+
+<div class="ml-container">
+	<form action="{{ url_for('predict') }}" method="post">
+
+   <div class="form-group">
+   Year:<br><input class="form-control" name="exampleFormControlInput0" type="text"><br><br>
+  </div>
+
+	<div class="form-group">
+	Kilometers driven:<br><input class="form-control" name="exampleFormControlInput1" type="text"><br><br>
+	</div>
+
+	<div class="form-group">
+  Mileage:<br><input class="form-control" name="exampleFormControlInput2" type="text"><br><br>
+	</div>
+
+	<div class="form-group">
+	Engine:<br><input class="form-control" name="exampleFormControlInput3" type="text"><br><br>
+  </div>
+
+	<div class="form-group">
+	Power:<br><input class="form-control" name="exampleFormControlInput4" type="text"><br><br>
+  </div>
+  Fuel type:<br>
+	<div class="form-group a1">
+	<input type="radio" class="form-control" name="exampleFormControlRadio0" value="1">Petrol<br>
+	<input type="radio" class="form-control" name="exampleFormControlRadio0" value="0">Diesel<br>
+	<br></div>
+Transmission type:<br>
+		<div class="form-group a1">
+    <input type="radio" class="form-control" name="exampleFormControlRadio1" value="1">Manual<br>
+		<input type="radio" class="form-control" name="exampleFormControlRadio1" value="0">Automatic<br>
+		<br></div>
+
+     Ownership:<br>
+<div class="form-group a1">
+		<input type="radio" class="form-control" name="exampleFormControlRadio2" value="2">First<br>
+		<input type="radio" class="form-control" name="exampleFormControlRadio2" value="1">Second<br>
+		<input type="radio" class="form-control" name="exampleFormControlRadio2" value="0">Third<br><br>
+
+    </select>
+	</div>
+	<input type="submit" class="btn-info" value="predict">
+
+</form>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='styler.css') }}">
+	<title>Predictor</title>
+</head>
+<body >
+<header>
+	<h1>Result:</h1><br>
+	<h2>The predicted life time of the given car is displayed below ↓↓↓↓</h2><br>
+</header>
+<span>	<h2 id=" da">{% print(prediction)%} years</h2></span>
+<span> <h2 id = "val" > </h2></span>
+</body>
+
+
+<script>
+    console.log({% print(prediction)%});
+    if  ({% print(prediction)%} == 0){
+        document.getElementById("val").innerHTML = "Car was not found during that time...";
+    }
+    </script>
+</html>

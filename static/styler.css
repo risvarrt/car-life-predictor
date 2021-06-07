@@ -1,0 +1,18 @@
+body{
+  margin: 0px;
+  background-color: deepskyblue;
+}
+header{
+  color: white;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+}
+span{
+  color: yellow;
+  font-family: fantasy;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
