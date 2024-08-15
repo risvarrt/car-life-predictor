@@ -5,9 +5,9 @@
 
 Below are some images related to the project:
 
-![Home Page](assets/proof4.png)
+![Home Page](assets/proof4.PNG)
 
-![Results Page](assets/proof5.png)
+![Results Page](assets/proof5.PNG)
 
 ## Problem Statement
 
@@ -47,15 +47,7 @@ The vehicle grade determines the expected lifetime of the car, categorized as fo
 
 ### Techniques Used
 
-The initial approach involves using Multiple Regression to predict the vehicle grade. The general equation for Multiple Linear Regression is as follows:
-
-\[ y_i = \beta_0 + \beta_1x_{i1} + \beta_2x_{i2} + ... + \beta_px_{ip} + \epsilon \]
-
-Where:
-- \( y_i \) is the dependent variable (Vehicle Grade)
-- \( x_i \) are the independent variables (e.g., Year, Fuel type)
-- \( \beta \) are the coefficients for each independent variable
-- \( \epsilon \) is the error term
+The initial approach involves using Multiple Regression to predict the vehicle grade. 
 
 The model's performance will be validated by visualizing the fit using scatter plots. If the fit is not satisfactory, alternative techniques such as clustering or random forest regression may be considered.
 
@@ -87,13 +79,13 @@ The proposed approach for estimating the remaining useful lifetime of vehicles c
 
 Below are the results related to the project:
 
-![Result - 1](assets/proof.png)
+![Result - 1](assets/proof.PNG)
 
-![Result - 2](assets/proof1.png)
+![Result - 2](assets/proof1.PNG)
 
-![Result - 3](assets/proof2.png)
+![Result - 3](assets/proof2.PNG)
 
-![Result - 4](assets/proof3.png)
+![Result - 4](assets/proof3.PNG)
 
 ## Conclusion
 
